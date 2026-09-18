@@ -2,7 +2,7 @@
 
 A mobile-first detective game built with React Native, Expo and TypeScript. Investigate fictional cases, examine evidence, interview suspects and build an accusation that survives scrutiny.
 
-**Status:** development prototype. Android, iOS and web are configured targets; this repository does not imply a published app-store release. This is a deduction game, not a real-world lie-detection tool.
+**Status:** portfolio prototype, with no further standalone development planned. Ideas from Lie Detector and The Empire are intended to inform another project; that integration is not implemented here. Android, iOS and web are configured targets; this repository does not imply a published app-store release. This is a deduction game, not a real-world lie-detection tool.
 
 ## Gameplay
 
@@ -19,7 +19,7 @@ Challenge codes do not require a multiplayer server. Cloud saves, online leaderb
 
 ## Preview
 
-Screenshots and a recorded demo are not yet included. Planned captures: the case briefing, investigation board, suspect interview and results screen. These should be taken from a running build rather than concept mockups.
+Screenshots and a recorded demo are not included. The case briefing, investigation board, suspect interview and results screen can be explored using the local setup below.
 
 ## Run locally
 
@@ -86,4 +86,6 @@ See [verification notes](docs/VERIFICATION.md) for the checks actually performed
 
 Only project source and required runtime assets are included. Player backups, packaged apps, credentials, caches and generated builds are excluded. Do not commit `.env` files, signing keys, player exports or private screenshots.
 
-The original Expo MIT notice in [LICENSE](LICENSE) is preserved. It credits the upstream template; it is not a claim that Expo authored the game. Additional asset provenance and the intended license for original game contributions should be confirmed by the maintainer before a formal release.
+The maintainer confirms ownership of the original app code and assets. Original contributions are **all rights reserved**, as described in [LICENSE](LICENSE). The source is public for portfolio review; no general open-source reuse license is offered for original contributions.
+
+The existing Expo MIT notice is preserved verbatim in [notices/EXPO-MIT-LICENSE.txt](notices/EXPO-MIT-LICENSE.txt) for upstream template material. Third-party dependencies retain their own licenses. These notices do not assert ownership of third-party work or remove permissions previously granted. GitHub's applicable viewing and forking rights remain unaffected; see [GitHub's licensing guidance](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).

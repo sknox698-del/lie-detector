@@ -22,7 +22,7 @@ The browser reported an audio autoplay `NotAllowedError` before the first intera
 ## Cleanup scope
 
 - Source came from the existing Lie Detector mobile-game archive.
-- All 62 retained original files outside the four edited configuration files match the archive byte-for-byte, including gameplay code and assets.
+- At initial publication, all 62 retained original files outside the four edited configuration files matched the archive byte-for-byte, including gameplay code and assets. The subsequent ownership clarification moved the original license notice unchanged to `notices/EXPO-MIT-LICENSE.txt` and added a separate notice for original contributions.
 - Configuration changes: project name/slug, removal of the old Expo preview owner/project/update endpoint, useful npm scripts and broader ignore rules.
 - Dependency versions were preserved; only the root package name changed in the lockfile.
 - Added README, Git attributes, these verification notes and repeatable logic checks.
@@ -30,10 +30,12 @@ The browser reported an audio autoplay `NotAllowedError` before the first intera
 - Existing original archives, APK and player backup were not modified. No old Git history was imported.
 - Required PNG/WAV runtime assets are included; compiled application binaries and generated output are not.
 
-## Remaining maintainer decisions
+## Ownership and project status clarification
 
-- Confirm provenance and redistribution rights for contributed assets, and the intended license for original game code. The archive's Expo MIT notice is preserved unchanged.
-- Choose Expo account/project identifiers and signing configuration if distributing a new native build. The public source is deliberately detached from the old preview service.
-- Add approved screenshots/demo recordings, complete localization and unfinished settings, and run full device/end-to-end testing before claiming release readiness.
+The maintainer confirmed ownership of the original app and assets and clarified that no further standalone development is planned. Ideas from Lie Detector and The Empire are intended for another project. That future work is outside this repository's implemented scope.
+
+Original contributions are marked all rights reserved. The archive's Expo MIT notice is preserved verbatim as a separate upstream notice; third-party licenses and previously granted permissions remain unaffected. Package metadata uses UNLICENSED to avoid implying a general open-source license for the original project.
+
+The known limitations above remain documented rather than promised as a development roadmap. If distribution is reconsidered, native signing/project configuration, full device testing and release verification would still be needed. Gameplay code, assets and dependency versions were not changed by this documentation and licensing update.
 
 No dependency upgrades or audit remediation were performed. The install reported an upstream deprecation warning for `uuid@7.0.3`; this review does not certify dependency security.
