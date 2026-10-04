@@ -19,7 +19,41 @@ Challenge codes do not require a multiplayer server. Cloud saves, online leaderb
 
 ## Preview
 
-Screenshots and a recorded demo are not included. The case briefing, investigation board, suspect interview and results screen can be explored using the local setup below.
+### Start Screen
+
+The main dashboard provides access to featured cases, case files, challenges, collections, awards, statistics and the player profile.
+
+![Lie Detector start screen](docs/images/lie-detector-start-screen.png)
+
+### Case Briefing
+
+Each case introduces the incident, victim, persons of interest, objectives and standing orders before the investigation begins.
+
+![Lie Detector case briefing](docs/images/lie-detector-weekly-case.png)
+
+### Investigation
+
+The investigation screen tracks suspects, trust, stress, interview status and progress toward filing an accusation.
+
+![Lie Detector investigation](docs/images/lie-detector-investigation.png)
+
+### Evidence Analysis
+
+Evidence is organized by source type, recovery status and analysis state, with individual exhibits available for deeper review.
+
+![Lie Detector evidence analysis](docs/images/lie-detector-evidence.png)
+
+### Suspect Interview
+
+Interviews combine dialogue choices, suspect reactions, trust, stress and evidence presentation.
+
+![Lie Detector suspect interview](docs/images/lie-detector-interview.png)
+
+### Case Results
+
+The case debrief scores the player's accusation, reasoning, motive, evidence selection and investigation performance.
+
+![Lie Detector case results](docs/images/lie-detector-results.png)
 
 ## Run locally
 
