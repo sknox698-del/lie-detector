@@ -31,7 +31,9 @@
     ],
     "plugins": [
       "expo-font",
-      "expo-audio"
+      "expo-audio",
+      "expo-image",
+      "expo-secure-store"
     ]
   }
 }
